@@ -1,5 +1,5 @@
 # EX 39 C program to find sum of digits.
-## DATE:
+
 ## AIM:
 To write a C program to find sum of digits.
 
@@ -14,12 +14,26 @@ To write a C program to find sum of digits.
 ```
 /*
 C program to find sum of digits.
-Developed by: 
-RegisterNumber:  
+Developed by: KAMALI.S
+RegisterNumber:  212222060109
 */
+#include<stdio.h>
+int main()
+{
+    int a,s,i,y=0;
+    scanf("%d",&a);
+    for(i=1;i<=5;i++)
+    {
+        s=a%10;
+        y=y+s;
+        a=a/10;
+    }
+    printf("%d",y);
+}
 ```
 
 ## Output:
+<img width="1127" height="167" alt="image" src="https://github.com/user-attachments/assets/f699acd1-eff0-454c-8d55-4fde34e7c075" />
 
 
 
