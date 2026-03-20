@@ -3,13 +3,16 @@
 ## AIM:
 To write a C program to find sum of digits.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
-
+# Algorithm:
+```
+Start.
+Define a variables.
+Write a program to print the English word corresponding to the given number.
+Read the value using scanf.
+Ask the user to make an input.
+Print out the answer.
+End.
+```
 ## Program:
 ```
 /*
